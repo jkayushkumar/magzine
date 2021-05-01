@@ -1,1 +1,1 @@
-# magzine
+# magzine template
