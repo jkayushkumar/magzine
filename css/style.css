@@ -60,3 +60,21 @@ section {
     width: 65%;
     transition: 1s all;
 }
+
+/* mobile portrait */
+
+@media only screen and (max-width: 567px) {
+    #magzine{
+        width: 95%;
+        height: 50%;
+    }
+}
+
+/* mobile landscape, tab */
+
+@media only screen and (min-width: 568px) and (max-width: 1024px) {
+    #magzine{
+        width: 80%;
+        height: 80%;
+    }
+}
