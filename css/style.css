@@ -82,9 +82,15 @@ section {
 /* mobile portrait */
 
 @media only screen and (max-width: 567px) {
+    #mag-container {
+        transform: rotate(90deg);
+    }
+    .page-content {
+        transform: rotate(-90deg);
+    }
     #magzine {
-        width: 95%;
-        height: 50%;
+        width: 70vh;
+        height: 90vw;
     }
 }
 
@@ -93,6 +99,6 @@ section {
 @media only screen and (min-width: 568px) and (max-width: 1024px) {
     #magzine {
         width: 80%;
-        height: 80%;
+        height: 78vh;
     }
 }
