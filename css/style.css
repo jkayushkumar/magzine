@@ -61,10 +61,28 @@ section {
     transition: 1s all;
 }
 
+#magzine .shadow {
+    box-shadow: 5px 5px 15px #66666677, -5px -5px 15px #66666655;
+}
+
+#magzine .page-wrapper {
+    perspective: 2000px;
+}
+
+#magzine .odd {
+    background: -webkit-gradient(linear, right top, left top, color-stop(0.95, #fff), color-stop(1, #cacaca));
+    background-image: -webkit-linear-gradient(right, #fff 95%, #cacaca 100%);
+}
+
+#magzine .even {
+    background: -webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
+    background-image: -webkit-linear-gradient(left, #fff 95%, #dadada 100%);
+}
+
 /* mobile portrait */
 
 @media only screen and (max-width: 567px) {
-    #magzine{
+    #magzine {
         width: 95%;
         height: 50%;
     }
@@ -73,7 +91,7 @@ section {
 /* mobile landscape, tab */
 
 @media only screen and (min-width: 568px) and (max-width: 1024px) {
-    #magzine{
+    #magzine {
         width: 80%;
         height: 80%;
     }

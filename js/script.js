@@ -8,7 +8,9 @@ function navigateTo(destination){
 }
 
 $("#magzine").turn({
+  elevation: 10,
   gradients:true,
   acceleration:true,
-  autoCenter: true
+  autoCenter: true,
+  duration:1000
 });
