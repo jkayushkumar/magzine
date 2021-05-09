@@ -3,8 +3,8 @@ window.addEventListener("load", function () {
     document.getElementById('loaderDiv').style.display = 'none';
   }, 1000);
 })
-function navigateTo(destination){
-  window.location = destination;
+function navigateTo(page){
+  window.location = page;
 }
 
 $("#magzine").turn({
@@ -12,5 +12,5 @@ $("#magzine").turn({
   gradients:true,
   acceleration:true,
   autoCenter: true,
-  duration:1000
+  duration:1500
 });
